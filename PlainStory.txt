@@ -1,0 +1,6 @@
+1. Hello -> User
+2. Hey this is An bot i'm recharge bot i can recharge your phone number 
+    -show him options buttons 
+    -show me recharge plan for Airtel 4g for 28 days  
+3. Sure give me your phone number 
+4. wallet integration.

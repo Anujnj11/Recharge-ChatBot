@@ -1,0 +1,641 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "What's up"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "Good  morning"
+      },
+      {
+        "intent": "greet",
+        "text": "Good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "Good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey sir"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi person"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey robot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye bot"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes, that sounds good"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "please do"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes, please"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes for sure"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks a bunch"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you very much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "deny",
+        "text": "No"
+      },
+      {
+        "intent": "deny",
+        "text": "Nope"
+      },
+      {
+        "intent": "deny",
+        "text": "Don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "Nooooo"
+      },
+      {
+        "intent": "deny",
+        "text": "No thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "No, I don't"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "airtel",
+            "entity": "operator"
+          },
+          {
+            "start": 33,
+            "end": 35,
+            "value": "4g",
+            "entity": "plan"
+          },
+          {
+            "start": 40,
+            "end": 47,
+            "value": "30 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "show me recharge plan for airtel 4g for 30 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vodafone",
+            "entity": "operator"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "2g",
+            "entity": "plan"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "68 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "vodafone 2g for 68 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "aircel",
+            "entity": "operator"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "3g",
+            "entity": "plan"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "70 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "aircel 3g for 70 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Jio",
+            "entity": "operator"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "4g",
+            "entity": "plan"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "28 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "Jio 4g for 28 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "airtel",
+            "entity": "operator"
+          }
+        ],
+        "text": "recharge for airtel roaming pack"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "3g",
+            "entity": "plan"
+          },
+          {
+            "start": 3,
+            "end": 9,
+            "value": "airtel",
+            "entity": "operator"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "10 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "3g airtel for 10 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "4g",
+            "entity": "plan"
+          },
+          {
+            "start": 3,
+            "end": 11,
+            "value": "vodafone",
+            "entity": "operator"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "10",
+            "entity": "validity"
+          }
+        ],
+        "text": "4g vodafone for 10"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "2g",
+            "entity": "plan"
+          },
+          {
+            "start": 3,
+            "end": 9,
+            "value": "airtel",
+            "entity": "operator"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "80 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "2g airtel for 80 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "roaming",
+            "entity": "plan"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "idea",
+            "entity": "operator"
+          },
+          {
+            "start": 17,
+            "end": 25,
+            "value": "180 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "roaming idea for 180 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vodafone",
+            "entity": "operator"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "roaming",
+            "entity": "plan"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "10 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "vodafone roaming plan for  10 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "airtel",
+            "entity": "operator"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "4g",
+            "entity": "plan"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "180 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "airtel 4g for  180 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "jio",
+            "entity": "operator"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "3g",
+            "entity": "plan"
+          },
+          {
+            "start": 17,
+            "end": 24,
+            "value": "30 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "jio 3g plans for 30 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "jio",
+            "entity": "operator"
+          }
+        ],
+        "text": "show me jio plans"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "airte",
+            "entity": "operator"
+          }
+        ],
+        "text": "show me airte plans"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "vodafone",
+            "entity": "operator"
+          }
+        ],
+        "text": "show me vodafone plans"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "idea",
+            "entity": "operator"
+          }
+        ],
+        "text": "show me idea plans"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "4g",
+            "entity": "plan"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "30 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "yes for 4g pack 30 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "3g",
+            "entity": "plan"
+          },
+          {
+            "start": 12,
+            "end": 20,
+            "value": "120 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "for 3g pack 120 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "roaming",
+            "entity": "plan"
+          },
+          {
+            "start": 17,
+            "end": 24,
+            "value": "28 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "for roaming pack 28 days"
+      },
+      {
+        "intent": "get_recharge_info",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "2g",
+            "entity": "plan"
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "30 days",
+            "entity": "validity"
+          }
+        ],
+        "text": "for 2g pack 30 days"
+      },
+      {
+        "intent": "mobile_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "9022171228",
+            "entity": "clientno"
+          }
+        ],
+        "text": "9022171228"
+      },
+      {
+        "intent": "mobile_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "8149698732",
+            "entity": "clientno"
+          }
+        ],
+        "text": "8149698732"
+      },
+      {
+        "intent": "mobile_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "7149698732",
+            "entity": "clientno"
+          }
+        ],
+        "text": "7149698732"
+      },
+      {
+        "intent": "mobile_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "9149698732",
+            "entity": "clientno"
+          }
+        ],
+        "text": "9149698732"
+      },
+      {
+        "intent": "mobile_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "8949898732",
+            "entity": "clientno"
+          }
+        ],
+        "text": "8949898732"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "clientno",
+        "pattern": "^[6-9]\\d{9}$"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

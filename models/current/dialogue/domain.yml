@@ -1,0 +1,89 @@
+%YAML 1.1
+---
+action_factory: null
+action_names:
+- utter_greet
+- should_proceed
+- payment_confirm
+- utter_goodbye
+- ask_plan_validity
+- utter_thanks
+- utter_noted
+- utter_deny
+- get_reacharge_plan
+- action_slot_reset
+actions:
+- utter_greet
+- should_proceed
+- payment_confirm
+- utter_goodbye
+- ask_plan_validity
+- utter_thanks
+- utter_noted
+- utter_deny
+- Actions.ActionRechargePlan
+- Actions.ActionSlotReset
+config:
+  store_entities_as_slots: true
+entities:
+- operator
+- plan
+- validity
+- clientno
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- thanks:
+    use_entities: true
+- deny:
+    use_entities: true
+- get_recharge_info:
+    use_entities: true
+- mobile_number:
+    use_entities: true
+slots:
+  OrderId:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  clientno:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  operator:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  plan:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  validity:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  ask_plan_validity:
+  - text: Sure but we need recharge plan and validity.
+  payment_confirm:
+  - text: Successfully recharged your mobile number {clientno} with Order Id {OrderId}
+  - text: Done! Recharge your mobile number {clientno} with Order Id {OrderId}
+  should_proceed:
+  - text: Mobile Number {clientno} Operator {operator} plan for {plan} validity {validity}.
+  utter_deny:
+  - text: Glad we have helped.
+  utter_goodbye:
+  - text: Talk to you later!
+  - text: Goodbye :(
+  - text: Bye!
+  - text: Have a great day!
+  utter_greet:
+  - buttons:
+    - title: Show me recharge plan for Airtel 4g for 28 days
+    - payload: show me recharge plan for airtel 4g plan for 30 days
+    text: Hello, my name is An Bot. To get started simply start typing or select from
+      the available
+  utter_noted:
+  - text: Currenlty we are working on this Thank You for showing interest!.
+  utter_thanks:
+  - text: You are very welcome.
+  - text: Glad I could help!

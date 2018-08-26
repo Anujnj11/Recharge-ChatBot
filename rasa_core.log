@@ -1,0 +1,132 @@
+E:\Python35\lib\importlib\_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+
+E:\Python35\lib\importlib\_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  return f(*args, **kwds)
+
+E:\Python35\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Encountered an exception while running action 'utter_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+'payload'
+Traceback (most recent call last):
+  File "E:\Python35\lib\site-packages\rasa_core\processor.py", line 311, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "E:\Python35\lib\site-packages\rasa_core\actions\action.py", line 72, in run
+    tracker)
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 159, in utter_template
+    self.utter_response(message)
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 65, in utter_response
+    message.get("buttons"))
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 107, in utter_button_message
+    **kwargs)
+  File "E:\Python35\lib\site-packages\rasa_core\channels\channel.py", line 87, in send_text_with_buttons
+    idx=idx + 1, title=button['title'], val=button['payload'])
+KeyError: 'payload'
+Encountered an exception while running action 'utter_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+'payload'
+Traceback (most recent call last):
+  File "E:\Python35\lib\site-packages\rasa_core\processor.py", line 311, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "E:\Python35\lib\site-packages\rasa_core\actions\action.py", line 72, in run
+    tracker)
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 159, in utter_template
+    self.utter_response(message)
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 65, in utter_response
+    message.get("buttons"))
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 107, in utter_button_message
+    **kwargs)
+  File "E:\Python35\lib\site-packages\rasa_core\channels\channel.py", line 87, in send_text_with_buttons
+    idx=idx + 1, title=button['title'], val=button['payload'])
+KeyError: 'payload'
+E:\Python35\lib\importlib\_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+
+E:\Python35\lib\importlib\_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  return f(*args, **kwds)
+
+E:\Python35\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+E:\Python35\lib\importlib\_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+
+E:\Python35\lib\importlib\_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  return f(*args, **kwds)
+
+E:\Python35\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Encountered an exception while running action 'utter_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+'payload'
+Traceback (most recent call last):
+  File "E:\Python35\lib\site-packages\rasa_core\processor.py", line 311, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "E:\Python35\lib\site-packages\rasa_core\actions\action.py", line 72, in run
+    tracker)
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 159, in utter_template
+    self.utter_response(message)
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 65, in utter_response
+    message.get("buttons"))
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 107, in utter_button_message
+    **kwargs)
+  File "E:\Python35\lib\site-packages\rasa_core\channels\channel.py", line 87, in send_text_with_buttons
+    idx=idx + 1, title=button['title'], val=button['payload'])
+KeyError: 'payload'
+E:\Python35\lib\importlib\_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+
+E:\Python35\lib\importlib\_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192, got 176
+  return f(*args, **kwds)
+
+E:\Python35\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Encountered an exception while running action 'utter_greet'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+'payload'
+Traceback (most recent call last):
+  File "E:\Python35\lib\site-packages\rasa_core\processor.py", line 311, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "E:\Python35\lib\site-packages\rasa_core\actions\action.py", line 72, in run
+    tracker)
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 159, in utter_template
+    self.utter_response(message)
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 65, in utter_response
+    message.get("buttons"))
+  File "E:\Python35\lib\site-packages\rasa_core\dispatcher.py", line 107, in utter_button_message
+    **kwargs)
+  File "E:\Python35\lib\site-packages\rasa_core\channels\channel.py", line 87, in send_text_with_buttons
+    idx=idx + 1, title=button['title'], val=button['payload'])
+KeyError: 'payload'

@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:\\Python ChatBot\\Recharge ChatBot\\Recharge-ChatBot\\models\\current\\nlu_model\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "F:\\Python ChatBot\\Recharge ChatBot\\Recharge-ChatBot\\models\\current\\nlu_model\\intent_classifier_tensorflow_embedding.ckpt"

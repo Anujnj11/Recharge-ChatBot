@@ -1,0 +1,71 @@
+slots:
+  operator:
+    type: text
+  plan:
+    type: text
+  validity:
+    type: text
+  clientno:
+    type: text
+  OrderId:
+    type: unfeaturized
+  
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - thanks
+  - deny
+  - get_recharge_info
+  - mobile_number
+ 
+entities:
+  - operator
+  - plan
+  - validity
+  - clientno
+
+templates:
+  utter_greet:
+    - text: "Hello, my name is An Bot. To get started simply start typing or select from the available"
+      buttons:
+      - title : "Show me recharge plan for Airtel 4g for 28 days"
+      - payload : "show me recharge plan for airtel 4g plan for 30 days"
+
+  should_proceed:
+    - Mobile Number {clientno} Operator {operator} plan for {plan} validity {validity}.
+   
+  payment_confirm:
+    - Successfully recharged your mobile number {clientno} with Order Id {OrderId} 
+    - Done! Recharge your mobile number {clientno} with Order Id {OrderId}  
+
+  utter_goodbye:
+    - "Talk to you later!"
+    - "Goodbye :("
+    - "Bye!"
+    - "Have a great day!"
+
+  ask_plan_validity:
+    - Sure but we need recharge plan and validity.
+
+  utter_thanks:
+    - "You are very welcome."
+    - "Glad I could help!"
+  
+  utter_noted:
+    - Currenlty we are working on this Thank You for showing interest!.
+  
+  utter_deny:
+    - Glad we have helped.
+
+actions:
+  - utter_greet
+  - should_proceed
+  - payment_confirm
+  - utter_goodbye
+  - ask_plan_validity
+  - utter_thanks
+  - utter_noted
+  - utter_deny
+  - Actions.ActionRechargePlan
+  - Actions.ActionSlotReset

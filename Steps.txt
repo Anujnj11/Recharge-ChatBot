@@ -1,0 +1,22 @@
+1.Create nlu_data.md and config.yml file
+Train using below command and use load_nlu_model.py to interpretet
+2.python -m rasa_nlu.train -c config.yml --data data/Nlu_data.md -o models --fixed_model_name nlu_model --project current --verbose
+3.create stories i.e stories.md (intent and enity with chatbot action)
+4.create domain file where chatbot lives
+5.5.Train model python -m rasa_core.train -d domain.yml -s data/stories.md -o models/current/dialogue --epochs 300
+5.python -m rasa_core.train -d rechargeDomain.yml -s Data/stories.md -o models/current/dialogue --epochs 300
+6.Run Model python -m rasa_core.run -d models/current/dialogue -u models/current/nlu_model
+Api Check Point
+7.python -m rasa_core.server -d models/current/dialogue -u models/current/nlu_model -o out.log
+
+API Respond
+localhost:5005/conversations/default/respond
+{
+	"query":"yes roaming pack for 30 days"
+}
+
+nLU
+localhost:5005/conversations/default/parse
+{
+	"query":"yes roaming pack for 30 days"
+}

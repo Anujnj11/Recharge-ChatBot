@@ -1,0 +1,32 @@
+{
+  "states": [
+    "intent_affirm",
+    "intent_deny",
+    "intent_get_recharge_info",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_mobile_number",
+    "intent_thanks",
+    "entity_operator",
+    "entity_plan",
+    "entity_validity",
+    "entity_clientno",
+    "slot_clientno_0",
+    "slot_operator_0",
+    "slot_plan_0",
+    "slot_validity_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_should_proceed",
+    "prev_payment_confirm",
+    "prev_utter_goodbye",
+    "prev_ask_plan_validity",
+    "prev_utter_thanks",
+    "prev_utter_noted",
+    "prev_utter_deny",
+    "prev_get_reacharge_plan",
+    "prev_action_slot_reset"
+  ]
+}
